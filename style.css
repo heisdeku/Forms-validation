@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+    font-family: calibri; 
+}
+
+svg {
+    padding: 40px;
+    margin: -190px 5px -200px 350px;
+    width: 30%;
+    height: 60%;
+}
+
+.formbox{
+	width: 400px;
+    margin: 0px auto;
+	height: 500px;
+	background: #fff;
+	color: #5F9EA0;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.formbox a{
+
+	text-decoration: none;
+	font-size: 120%;
+	line-height: 20px;
+	color: #00baba;
+
+}
+
+.header {
+    width: 360px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border-bottom: none;
+    padding: 20px; 
+}
+
+form {
+    width: 250;
+    height: 300px;
+    margin: 20px 10px 0px 50px;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.input-area {
+    margin: 10px 0px 10px 0px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 30px;
+}
+
+.input-area label {
+    margin: 30px 20px 5px 0px;
+    padding: 0px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.input-area input {
+    height: 20px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #5F9EA0;
+    background: transparent;
+    color: #0e0d0d;
+    outline: none;
+    -webkit-appearance: textfield;
+}
+
+input[type="tel"] {
+    border: none;
+    height: 20px;
+    width: 250px;
+    font-size: 16px;
+    -webkit-appearance: textfield;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid #5F9EA0;
+    color: #5F9EA0;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 50px 0px 0px 80px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.p {
+    padding: 30px;
+    margin: 40px auto;
+    color: #5F9EA0;
+    font-size: 16px;
+}
+
+p {
+    padding: 30px;
+    text-align: center;
+    color: #0e0d0d;
+}
+p :hover{
+
+	cursor: pointer;
+	background: white;
+	color: blue;
+}
